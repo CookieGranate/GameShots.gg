@@ -12,14 +12,11 @@ const Profile = () => {
                         <a href="/account">Account</a>
                     </li>
 
-                    <h3>Personalize</h3>
                     <li>
-                        <h4>darkmode</h4>
-                        <label class="switch">
-                            <input type="checkbox"/>
-                            <span class="slider round"></span>
-                        </label> 
+                        <a href="/settings">Settings</a>
                     </li>
+
+                    {/* <div className="emptybarprofile"></div> */}
 
                     <li>
                         <LogoutButton />

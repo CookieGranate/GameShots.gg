@@ -1,9 +1,53 @@
 #navbar {
 	width: 100%;
-	height: 100px;
-	background-color: rgb(59, 59, 59);
+	height: 80px;
+	background-color: #20202B;
 	top: 0;
 	position: absolute;
 }
 
+#logodiv img {
+	margin-top: -40px;
+	width: 300px;
+	padding-right: 10px;
+	vertical-align: middle;
+}
 
+#logo {
+	font-size: 20px;
+	color: #fff;
+	display: inline-block;
+}
+
+#logo p {
+	font-size: 15px;
+}
+
+#links {
+	position: absolute;
+	left: 350px;
+	margin-top: -93px;
+}
+
+#center li {
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: .2s;
+	padding: 7px;
+	border-radius: 20px;
+}
+
+#center li:hover {
+	background-color: #68686896;
+}
+
+#center a {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 800;
+}
+
+#profile {
+	float: right;
+}

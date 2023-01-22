@@ -4,6 +4,8 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 // pages
 import Home from './pages/Home'
+import Settings from './pages/Settings'
+import Newest from './pages/Newest'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +15,14 @@ function App() {
       case '/':
       PageComponent = <Home />
       break
+      case '/settings':
+        PageComponent = <Settings />
+        break
+        case '/newest':
+          PageComponent = <Newest />
+          break
     }
+    
   return (
     <>
       <Navbar />
@@ -22,5 +31,7 @@ function App() {
     </>
   )
 }
+
+
 
 export default App

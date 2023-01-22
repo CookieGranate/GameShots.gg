@@ -4,19 +4,23 @@ import Profile from "./Profile"
 const Navbar = () => {
     return (
         <nav id="navbar">
-            <a href="/"><img src="" alt="" />Gameshots.gg</a>
-
+            <div id="logodiv">
+                <a href="/" id="logo">
+                    <img src="https://cdn.discordapp.com/attachments/1066774277774385222/1066786201467637820/image.png" alt="logo" />
+                </a>
+            </div>
+            
             <div id="links">
                 <div id="center">
                     <ul>
                         <li>
-                            <a href="/">Feed</a>
+                            <a href="/" id="feed">Feed</a>
                         </li>
                         <li>
-                            <a href="/newpost">Newest</a>
+                            <a href="/newest" id="newest">Newest</a>
                         </li>
                         <li>
-                            <a href="/publish">Post</a>
+                            <a href="/publish" id="publish">Publish</a>
                         </li>
                     </ul>
                 </div>
@@ -36,5 +40,7 @@ const Navbar = () => {
         </nav>
     )
 }
+
+
 
 export default Navbar
