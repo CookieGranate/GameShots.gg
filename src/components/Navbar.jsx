@@ -23,10 +23,12 @@ const Navbar = () => {
             </div>
 
             <div id="profile">
+                {/* showed in the beginning / not logged in */}
                 <div id="notloggedin">
                     <LoginButton />
                 </div>
 
+                {/* showed if logged in */}
                 <div id="loggedin">
                     <Profile />
                 </div>
