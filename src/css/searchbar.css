@@ -12,6 +12,9 @@
 	height: 30px;
 	width: 200px;
 	border-radius: 10px;
+    color: #000;
+    font-weight: 800;
+    font-family: 'Nunito Sans';
 }
 
 #searchbardiv button {
@@ -22,4 +25,13 @@
 
 #searchbardiv i {
     font-size: 20px;
+    transition: 0.2s;
+}
+
+#searchbardiv i:hover {
+    transform: scale(1.2);
+}
+
+#searchbardiv i:active {
+    transform: scale(1);
 }
