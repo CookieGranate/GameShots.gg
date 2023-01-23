@@ -1,0 +1,25 @@
+/* searchbar */
+#searchbardiv {
+	position: absolute;
+	margin-top: -105px;
+	right: 200px;
+}
+
+#searchbardiv input{
+	border: none;
+	outline: none;
+	background-color: #fff;
+	height: 30px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+#searchbardiv button {
+    outline: none;
+    border: none;
+	background-color: transparent;
+}
+
+#searchbardiv i {
+    font-size: 20px;
+}

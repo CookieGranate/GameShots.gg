@@ -1,6 +1,6 @@
 const LoginButton = () => {
     return (
-        <button>Sign In</button>
+        <button id="loginbtn">Sign in</button>
     )
 }
 

@@ -1,0 +1,10 @@
+#loginbtn{
+    transition: 0.2s;
+    background-color: rgb(92, 0, 120);
+    border: none;
+}
+
+#loginbtn:hover {
+    background-color: #5800a5;
+    border: inherit;
+}

@@ -1,9 +1,10 @@
 import LogoutButton from "../btn/LogoutButton"
+import emptyuser from '../img/user_icon.png'
 
 const Profile = () => {
     return (
         <div id="profile">
-            <img src="#" alt="profilepic" id="pfp"/>
+            <img src={emptyuser} alt="emptyuser" id="pfp" />
             <p id="username">username</p>
 
             <div id="profilemenu">

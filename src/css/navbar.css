@@ -48,6 +48,16 @@
 	font-weight: 800;
 }
 
+/* login system */
 #profile {
 	float: right;
+	margin-right: 25px;
+}
+
+#loggedin {
+	display: none;
+}
+
+#notloggedin {
+	margin-top: -102px;
 }

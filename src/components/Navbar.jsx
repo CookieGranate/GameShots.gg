@@ -1,5 +1,6 @@
 import LoginButton from "../btn/LoginButton"
 import Profile from "./Profile"
+import Searchbar from "./Searchbar"
 
 const Navbar = () => {
     return (
@@ -25,6 +26,8 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
+
+            <Searchbar />
 
             <div id="profile">
                 {/* showed in the beginning / not logged in */}
