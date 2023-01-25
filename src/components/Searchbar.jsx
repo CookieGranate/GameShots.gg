@@ -8,7 +8,7 @@ const Searchbar = () => {
     const searchbar = document.getElementById('searchbar');
     
     return (
-        <div id="searchbardiv" onLoad={() => document.getElementById('resultsdiv').style.display = 'none'}>
+        <div id="searchbardiv">
             <input type="text" placeholder="Search for a game.." name="search" id='searchbar' />
             <button type="submit"><i class="fa fa-search"></i></button>
             <div id="resultsdiv">
