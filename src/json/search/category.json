@@ -1,0 +1,16 @@
+[
+    {
+        "category": "Racing",
+        "id": 1
+    },
+
+    {
+        "category": "Shooter",
+        "id": 2
+    },
+
+    {
+        "category": "Horror",
+        "id": 3
+    }
+]

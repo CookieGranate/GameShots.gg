@@ -1,21 +1,30 @@
 import '../scripts/searchbar';
-import games from '../../public/games.json';
+import searchbargames from '../json/search/games.json';
+import searchbarcategory from '../json/search/category.json'
 
 const Searchbar = () => {
+    var resultsdiv = document.getElementById('resultsdiv')
+    var searchbar = document.getElementById('searchbar')
+    var searchbardiv = document.getElementById('searchbardiv')
+    var searchbarbox = document.getElementById('searchbarbox')
+
     return (
         <div id="searchbardiv">
-            <input type="text" placeholder="Search for a game.." name="search" id='searchbar' data-search />
+            <div id='searchbarbox' onFocus={showResults}>
+                <input type="text" placeholder="Search for a game.." name="search" id='searchbar' />
+            </div>
+            
             <button type="submit"><i class="fa fa-search"></i></button>
             <div id="resultsdiv">
                 <h4>Games</h4>
-                {games && games.map(({ gamename, id }) => (
+                {searchbargames && searchbargames.map(({ gamename, id }) => (
                     <div key={id} className="gamename result">
                         <strong>{gamename}</strong>
                     </div>
                 ))}
                 <div id="categories">
-                    {games && games.map(({ category, categoryid }) => (
-                        <div key={categoryid} className="category">
+                    {searchbarcategory && searchbarcategory.map(({ category, id }) => (
+                        <div key={id} className="category">
                             <strong>{category}</strong>
                         </div>
                     ))}
