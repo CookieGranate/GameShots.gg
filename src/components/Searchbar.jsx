@@ -1,7 +1,6 @@
 import '../scripts/searchbar';
 import searchbargames from '../json/search/games.json';
 import searchbarcategory from '../json/search/category.json';
-import { useState } from 'react';
 
 
 const Searchbar = () => {
