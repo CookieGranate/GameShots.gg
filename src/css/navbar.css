@@ -35,7 +35,8 @@
 	margin-right: 10px;
 	transition: .2s;
 	padding: 7px;
-	border-radius: 20px;
+	border-radius: 4px;
+	font-weight: 400;
 }
 
 #center li:hover {
@@ -43,9 +44,9 @@
 }
 
 #center a {
-	font-size: 20px;
+	font-size: 18px;
 	color: #fff;
-	font-weight: 800;
+	font-weight: 400;
 }
 
 /* login system */
@@ -61,3 +62,4 @@
 #notloggedin {
 	margin-top: -102px;
 }
+

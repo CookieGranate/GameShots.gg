@@ -11,9 +11,9 @@
 	background-color: #fff;
 	height: 30px;
 	width: 200px;
-	border-radius: 10px;
+	border-radius: 4px;
     color: #000;
-    font-weight: 800;
+    font-weight: 600;
     font-family: 'Nunito Sans';
 }
 
@@ -38,4 +38,8 @@
 
 #resultsdiv {
 	display: none;
+}
+
+#searchbar {
+	padding: 4px;
 }

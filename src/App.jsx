@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import Settings from './pages/Settings'
 import Newest from './pages/Newest'
+//scripts
 
 function App() {
   const [count, setCount] = useState(0)

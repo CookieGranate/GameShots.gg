@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div id="center">
                     <ul>
                         <li>
-                            <a href="/" id="feed">Feed</a>
+                            <a href="/" id="feed" >Feed</a>
                         </li>
                         <li>
                             <a href="/newest" id="newest">Newest</a>

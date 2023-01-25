@@ -1,4 +1,4 @@
-import '../scripts/searchbar';
+
 import searchbargames from '../json/search/games.json';
 import searchbarcategory from '../json/search/category.json';
 
@@ -6,17 +6,17 @@ const Searchbar = () => {
     const resultsdiv = document.getElementById('resultsdiv');
     const searchbar = document.getElementById('searchbar');
     
+    //toggle the searchbar proposal
     function gamesShow(){
         document.getElementById("resultsdiv").style.display = "block";
     }
-
     function gamesHide(){
         document.getElementById("resultsdiv").style.display = "none";
     }
 
     return (
         <div id="searchbardiv">
-            <input type="text" placeholder="Search for a game.." name="search" id='searchbar' onFocus={gamesShow} onBlur={gamesHide} />
+            <input type="text" placeholder="Search for a game.." name="search" id='searchbar' autoComplete='off' onFocus={gamesShow} onBlur={gamesHide} />
             <button type="submit"><i class="fa fa-search"></i></button>
             <div id="resultsdiv">
                 <h4>Games</h4>
@@ -34,6 +34,7 @@ const Searchbar = () => {
                 </div>
             </div>
         </div>
+        
     )
 }
 
