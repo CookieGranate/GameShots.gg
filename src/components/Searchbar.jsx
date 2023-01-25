@@ -1,19 +1,16 @@
 import '../scripts/searchbar';
 import searchbargames from '../json/search/games.json';
-import searchbarcategory from '../json/search/category.json'
+import searchbarcategory from '../json/search/category.json';
+import { useState } from 'react';
+
 
 const Searchbar = () => {
-    var resultsdiv = document.getElementById('resultsdiv')
-    var searchbar = document.getElementById('searchbar')
-    var searchbardiv = document.getElementById('searchbardiv')
-    var searchbarbox = document.getElementById('searchbarbox')
-
+    const resultsdiv = document.getElementById('resultsdiv');
+    const searchbar = document.getElementById('searchbar');
+    
     return (
-        <div id="searchbardiv">
-            <div id='searchbarbox' onFocus={showResults}>
-                <input type="text" placeholder="Search for a game.." name="search" id='searchbar' />
-            </div>
-            
+        <div id="searchbardiv" onLoad={() => document.getElementById('resultsdiv').style.display = 'none'}>
+            <input type="text" placeholder="Search for a game.." name="search" id='searchbar' />
             <button type="submit"><i class="fa fa-search"></i></button>
             <div id="resultsdiv">
                 <h4>Games</h4>
