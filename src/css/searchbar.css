@@ -35,3 +35,7 @@
 #searchbardiv i:active {
     transform: scale(1);
 }
+
+#resultsdiv {
+	display: none;
+}
