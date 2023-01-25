@@ -13,15 +13,21 @@
 	width: 200px;
 	border-radius: 4px;
     color: #000;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Nunito Sans';
 	transition: .2s;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
 }
 
 #searchbardiv input::placeholder {
 	position: absolute;
-	margin-top: 6px;
+	margin-top: 2px;
 	margin-left: 10px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
 }
 
 #searchbardiv button {
@@ -45,7 +51,7 @@
 
 
 #resultsdiv {
-	/* display: none; */
+	display: none;
 	transition: .2s;
 }
 

@@ -9,23 +9,15 @@ const Searchbar = () => {
     //toggle the searchbar proposal
     function gamesShow(){
         document.getElementById("resultsdiv").style.display = "block";
-        document.getElementById('searchbar').style.borderBottomLeftRadius = '0'
-        document.getElementById('searchbar').style.borderBottomRightRadius = '0'
     }
     function gamesHide(){
         document.getElementById("resultsdiv").style.display = "none";
-        document.getElementById('searchbar').style.borderBottomLeftRadius = '10px'
-        document.getElementById('searchbar').style.borderBottomRightRadius = '10px'
     }
 
     return (
         <div id="searchbardiv">
-            <input type="text" placeholder="Search for a game.." name="search" id='searchbar' onFocus={gamesShow} onBlur={gamesHide} />
-<<<<<<< HEAD
+            <input type="text" placeholder="Search for a game.." name="search" id='searchbar' autoComplete='off' onFocus={gamesShow} onBlur={gamesHide} />
             <button type="submit"><i class="fa fa-search"></i></button>
-=======
-            {/* <button type="submit"><i class="fa fa-search"></i></button> */}
->>>>>>> 6f408db3b0a9f150f37942c08ba5dc246161b6a0
             <div id="resultsdiv">
                 <div id='resultscontainer'>
                     <div id="games" className='resultcontainer'>
