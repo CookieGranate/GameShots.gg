@@ -1,7 +1,7 @@
 /* searchbar */
 #searchbardiv {
 	position: absolute;
-	margin-top: -105px;
+	margin-top: -97px;
 	right: 200px;
 }
 
@@ -15,6 +15,13 @@
     color: #000;
     font-weight: 800;
     font-family: 'Nunito Sans';
+	transition: .2s;
+}
+
+#searchbardiv input::placeholder {
+	position: absolute;
+	margin-top: 6px;
+	margin-left: 10px;
 }
 
 #searchbardiv button {
@@ -36,6 +43,26 @@
     transform: scale(1);
 }
 
+
 #resultsdiv {
-	display: none;
+	/* display: none; */
+	transition: .2s;
+}
+
+.emptydiv {
+	margin: 10px;
+	border: #000 1px solid;
+	width: 90%;
+	margin-left: 12px;
+}
+
+.resultcontainer {
+	margin-left: 10px;
+}
+
+#resultsdiv {
+	background-color: #fff;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	color: #000;
 }
