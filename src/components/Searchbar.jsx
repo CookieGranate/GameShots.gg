@@ -32,8 +32,9 @@ const Searchbar = () => {
                     <div className="emptydiv"></div>
                     
                     <div id="categories" className='resultcontainer'>
+                        <h4>Categories</h4>
                         {searchbarcategory && searchbarcategory.map(({ category, id }) => (
-                            <div key={id} className="category">
+                            <div key={id} className="category result" /*onClick={() => window.location.href = window.prompt('/search+category?=' + {category})}*/>
                                 <strong>{category}</strong>
                             </div>
                         ))}

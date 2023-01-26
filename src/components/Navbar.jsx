@@ -1,4 +1,4 @@
-import LoginButton from "../btn/LoginButton"
+import SigninButton from "../btn/SigninButton"
 import Profile from "./Profile"
 import Searchbar from "./Searchbar"
 
@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div id="center">
                     <ul>
                         <li>
-                            <a href="/" id="feed" >Feed</a>
+                            <a href="/" id="feed">Feed</a>
                         </li>
                         <li>
                             <a href="/newest" id="newest">Newest</a>
@@ -32,7 +32,7 @@ const Navbar = () => {
             <div id="profile">
                 {/* showed in the beginning / not logged in */}
                 <div id="notloggedin">
-                    <LoginButton />
+                    <SigninButton />
                 </div>
 
                 {/* showed if logged in */}

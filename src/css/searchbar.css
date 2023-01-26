@@ -62,17 +62,28 @@
 	margin-left: 12px;
 }
 
-.resultcontainer {
-	margin-left: 10px;
-}
-
 #resultsdiv {
 	background-color: #fff;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
+	border-radius: 5px;
 	color: #000;
 }
 
 #searchbar {
 	padding: 4px;
 }
+
+#resultsdiv h4 {
+	margin-left: 5px;
+	color: #000;
+}
+
+.result {
+	width: 100%;
+	cursor: pointer;
+	padding-left: 15px;
+}
+
+.result:hover {
+	background-color: #808080;
+}
+

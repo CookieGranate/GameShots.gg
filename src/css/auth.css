@@ -1,0 +1,46 @@
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/1066774277774385222/1067906990355001434/signin_bg_small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#signinbox {
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -200px;
+    color: #000;
+    border-radius: 5px;
+}
+
+#signup {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-40%);
+    bottom: 15px;
+}
+
+#signup p {
+    font-size: 15px;
+}
+
+.input-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding-right: 100%;
+}
+
+.input-field {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+    width: 80%;
+    transition: all 0.2s ease-in-out;
+}

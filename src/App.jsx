@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import Settings from './pages/Settings'
 import Newest from './pages/Newest'
-//scripts
+import Auth from './pages/Auth'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +22,9 @@ function App() {
         case '/newest':
           PageComponent = <Newest />
           break
+          case '/auth':
+            PageComponent = <Auth />
+            break
     }
     
   return (
