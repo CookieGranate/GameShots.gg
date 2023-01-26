@@ -1,4 +1,4 @@
-import LogoutButton from "../btn/LogoutButton"
+import LogoutBtn from "./btn/LogoutBtn"
 import emptyuser from '../img/user_icon.png'
 
 const Profile = () => {
@@ -20,7 +20,7 @@ const Profile = () => {
                     {/* <div className="emptybarprofile"></div> */}
 
                     <li>
-                        <LogoutButton />
+                        <LogoutBtn />
                     </li>
                 </ul>
             </div>

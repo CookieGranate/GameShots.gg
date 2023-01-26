@@ -1,6 +1,7 @@
-import SigninButton from "../btn/SigninButton"
-import Profile from "./Profile"
-import Searchbar from "./Searchbar"
+import LoginBtn from "./btn/LoginBtn";
+import SignupBtn from "./btn/SignupBtn";
+import Profile from "./Profile";
+import Searchbar from "./Searchbar";
 
 const Navbar = () => {
     return (
@@ -32,7 +33,8 @@ const Navbar = () => {
             <div id="profile">
                 {/* showed in the beginning / not logged in */}
                 <div id="notloggedin">
-                    <SigninButton />
+                    <LoginBtn />
+                    <SignupBtn />
                 </div>
 
                 {/* showed if logged in */}

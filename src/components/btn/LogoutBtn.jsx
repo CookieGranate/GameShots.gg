@@ -1,7 +1,7 @@
-const LogoutButton = () => {
+const LogoutBtn = () => {
     return (
         <button>LogoutButton</button>
     )
 }
 
-export default LogoutButton
+export default LogoutBtn

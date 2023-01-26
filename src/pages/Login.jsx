@@ -1,4 +1,4 @@
-const Auth = () => {
+const Login = () => {
     return (
         <div id="signinbox">
             <h2>Sign into your account with Email, Google or Facebook</h2>
@@ -11,15 +11,15 @@ const Auth = () => {
                     <label htmlFor="password" className="input_label">Password</label>
                     <input type="text" name="password" id="password" className="input-field" /><br />
 
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="Log in" id="loginbtn" />
                 </form>
             </div>
 
             <div id="signup">
-                <p>Don't have an account yet? <a href="/signup">Sign Up</a> to create a new account.</p>
+                <p>Don't have an account yet? <a href="/auth/signup">Sign Up</a> to create a new account.</p>
             </div>
         </div>
     )
 }
 
-export default Auth;
+export default Login;
