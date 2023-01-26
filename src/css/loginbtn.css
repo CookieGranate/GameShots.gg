@@ -3,6 +3,8 @@
     background-color: #303046;
     border: none;
     border-radius: 4px;
+    height: 45px;
+    width: 100px;
 }
 
 #loginbtn:hover {

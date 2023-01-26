@@ -26,27 +26,30 @@
 #links {
 	position: absolute;
 	left: 350px;
-	margin-top: -93px;
+	margin-top: -95px;
+}
+
+#center {
+	margin-bottom: 35px;
 }
 
 #center li {
 	display: inline;
 	margin-left: 10px;
 	margin-right: 10px;
-	transition: .2s;
-	padding: 7px;
-	border-radius: 4px;
-	font-weight: 400;
-}
-
-#center li:hover {
-	background-color: #68686896;
 }
 
 #center a {
 	font-size: 20px;
 	color: #fff;
+	padding: 7px;
+	transition: .2s;
+	border-radius: 4px;
 	font-weight: 800;
+}
+
+#center a:hover {
+	background-color: #68686896;
 }
 
 /* login system */
@@ -60,6 +63,6 @@
 }
 
 #notloggedin {
-	margin-top: -102px;
+	margin-top: -105px;
 }
 

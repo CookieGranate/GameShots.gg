@@ -5,14 +5,19 @@ body {
 #signinbox {
     background-color: #262730;
     width: 500px;
-    height: 500px;
+    height: 600px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: -200px;
+    margin-top: -300px;
     color: #000;
     display: block;
     border-radius: 10px;
+    padding: 15px;
+}
+
+#signinbox h2 {
+    color: #fff;
 }
 
 #signup {
@@ -31,6 +36,7 @@ body {
     position: absolute;
     top: 10px;
     left: 10px;
+    transition: 0.2s;
     padding-right: 100%;
 }
 
@@ -52,11 +58,48 @@ body {
     background-color: #1A7F64;
     color: #fff;
     font-weight: 600;
-    padding: 5px 15px;
-    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+    width: 80px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 #signup p {
     color: #fff;
+}
+
+#signinform label {
+    color: #fff;
+}
+
+#return {
+    position: absolute;
+    margin-left: -520px;
+    bottom: 30px;
+}
+
+#return a {
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #1A7F64;
+    transition: 0.2s;
+}
+
+#return a:hover {
+    background-color: #125946;
+}
+
+#signinform {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#signinform label {
+    margin-right: -10px;
+}
+
+#passworddiv {
+    margin-top: 10px;
 }

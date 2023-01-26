@@ -1,8 +1,9 @@
 /* searchbar */
 #searchbardiv {
 	position: absolute;
-	margin-top: -97px;
+	margin-top: -105px;
 	right: 200px;
+	margin-right: 30px;
 }
 
 #searchbardiv input{

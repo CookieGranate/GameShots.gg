@@ -1,0 +1,13 @@
+#signupbtn{
+    transition: 0.2s;
+    background-color: #303046;
+    border: 3px solid #1A7F64;
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 100px;
+}
+
+#signupbtn:hover {
+    background-color: #5800a5;
+    border: #5800a5 3px solid;
+}

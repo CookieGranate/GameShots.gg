@@ -1,6 +1,6 @@
 const SignupBtn = () => {
     return (
-        <button onClick={() => window.location.href = '/auth/signup'}>Sign up</button>
+        <button id="signupbtn" onClick={() => window.location.href = '/auth/signup'}>Sign up</button>
     )
 }
 
